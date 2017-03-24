@@ -1,4 +1,8 @@
-//如果使用模块化机制编程，導入Vue和VueRouter，要调用 Vue.use(VueRouter)
+/*
+* 如果使用模块化机制编程，導入Vue和VueRouter，要调用 Vue.use(VueRouter)
+* 实现了各种情况下路由的实现方式
+* 参考：http://router.vuejs.org/zh-cn/
+*/
 
 // 定义（路由）组件。
 const News  = { template: '<h2>新闻_常规路由</h2>' };
